@@ -5,6 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+            rel="stylesheet"
+        />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -16,10 +22,53 @@
         <title>Frontend Mentor | NFT preview card component</title>
     </head>
     <body>
-        <div class="attribution">
-            Challenge by
-            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
-            >. Coded by <a href="#">Ahmed Oraby</a>.
+        <div class="container">
+            <div class="card">
+                <div class="card__content">
+                    <div class="card__image">
+                        <img src="images/image-equilibrium.jpg" alt="" />
+                    </div>
+                    <h1>Equilibrium #3429</h1>
+                    <p class="soft-blue">Our Equilibrium collection promotes balance and calm</p>
+                    <div class="card__footer">
+                        <div class="card__icon">
+                            <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
+                                    fill="#00FFF8"
+                                />
+                            </svg>
+                            <p class="cyan">0.041ETH</p>
+                        </div>
+                        <div class="card__icon">
+                            <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
+                                    fill="#8BACD9"
+                                />
+                            </svg>
+                            <p class="soft-blue">3 days left</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="card__credit">
+                        <div class="card__avatar">
+                            <img src="images/image-avatar.png" alt="" />
+                        </div>
+                        <p class="soft-blue">
+                            Creation of <span class="author">Jules Wyvren</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <footer>
+            <div class="attribution">
+                Challenge by
+                <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+                    >Frontend Mentor</a
+                >. Coded by <a href="#">Ahmed Oraby</a>.
+            </div>
+        </footer>
     </body>
 </html>
