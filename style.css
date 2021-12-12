@@ -28,7 +28,7 @@ body {
 .container {
     background-color: var(--color-main-bg);
     margin: auto;
-    padding: 6rem 0;
+    padding: 10rem 0;
 }
 
 .card {
@@ -45,6 +45,11 @@ body {
     object-fit: cover;
 }
 
+.card__content a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .card__image {
     position: relative;
 }
@@ -59,7 +64,6 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 
 .card__title {
@@ -71,7 +75,6 @@ body {
 
 .card__title:hover {
     color: var(--color-cyan);
-    cursor: pointer;
 }
 
 .card__icon {
@@ -125,17 +128,43 @@ body {
 
 .author:hover {
     color: var(--color-cyan);
-    cursor: pointer;
 }
 
 .soft-blue {
     color: var(--color-softblue);
 }
 
+footer {
+    padding: 2rem;
+}
+
 .attribution {
-    font-size: 11px;
     text-align: center;
+    font-weight: 400;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1.6rem;
+    }
+
+    .card {
+        padding: 2.2rem;
+    }
+
+    .card__title {
+        font-size: 2rem;
+    }
+
+    .line {
+        margin-top: 2.5rem;
+    }
+
+    .card__credit {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
 }
