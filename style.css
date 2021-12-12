@@ -22,6 +22,7 @@ body {
     font-family: "Outfit", sans-serif;
     font-size: 1.8rem;
     line-height: 1.5;
+    font-weight: 300;
 }
 
 .container {
@@ -33,7 +34,7 @@ body {
 .card {
     max-width: 375px;
     margin: auto;
-    padding: 2.5rem;
+    padding: 2.7rem;
     border-radius: 20px;
     background-color: var(--color-card-bg);
 }
@@ -61,13 +62,14 @@ body {
     cursor: pointer;
 }
 
-.card__content h1 {
+.card__title {
     font-size: 2.4rem;
     color: #fff;
     margin: 1.5rem 0;
+    font-weight: 600;
 }
 
-.card__content h1:hover {
+.card__title:hover {
     color: var(--color-cyan);
     cursor: pointer;
 }
@@ -82,7 +84,7 @@ body {
 
 .card__icon svg {
     position: relative;
-    top: 4px;
+    top: 5px;
 }
 
 .card__footer {
@@ -96,19 +98,25 @@ body {
     justify-content: start;
     align-items: center;
     margin-top: 2rem;
+    font-size: 1.6rem;
 }
 
 .card__avatar {
     border: 2px solid white;
     border-radius: 100%;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin-right: 2rem;
 }
 
 .line {
     border-top: 1px solid var(--color-line);
     margin-top: 1.5rem;
+}
+
+.rate {
+    color: var(--color-cyan);
+    font-weight: 400;
 }
 
 .author {
@@ -118,10 +126,6 @@ body {
 .author:hover {
     color: var(--color-cyan);
     cursor: pointer;
-}
-
-.cyan {
-    color: var(--color-cyan);
 }
 
 .soft-blue {
