@@ -28,12 +28,12 @@ body {
 .container {
     background-color: var(--color-main-bg);
     margin: auto;
-    padding: 10rem 0;
+    padding: 10rem 2rem;
 }
 
 .card {
     max-width: 375px;
-    margin: 6rem auto;
+    margin: 5rem auto;
     padding: 2.7rem;
     border-radius: 20px;
     background-color: var(--color-card-bg);
